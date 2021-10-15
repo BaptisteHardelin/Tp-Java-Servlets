@@ -79,7 +79,7 @@ public class ListeJoueur extends HttpServlet
     // fermeture de la connexion
     con.close();
     } catch (Exception e) {
-      //TODO: handle exception
+      e.printStackTrace();
     }
 
     out.println( "</center> </body>" );
